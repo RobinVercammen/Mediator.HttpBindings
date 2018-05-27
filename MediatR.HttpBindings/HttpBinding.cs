@@ -43,7 +43,6 @@ namespace MediatR.HttpBindings
                     var method = httpBinding.Method;
                     var url = httpBinding.Url;
 
-                    RequestResponseController<IRequest<object>, object> rrc;
                     var returnType = entityType.GetInterfaces().Single(i => i.IsGenericType && i.GetGenericTypeDefinition() == typeof(IRequest<>)).GetGenericArguments()[0];
                     var controllerType = typeof(RequestResponseController<,>)
                         .MakeGenericType(entityType, returnType);
@@ -51,7 +50,7 @@ namespace MediatR.HttpBindings
                     var assemblyName = new System.Reflection.AssemblyName("RequestResponseController");
                     var assemblyBuilder = AssemblyBuilder.DefineDynamicAssembly(assemblyName, AssemblyBuilderAccess.Run);
                     var moduleBuilder = assemblyBuilder.DefineDynamicModule(assemblyName.Name);
-                    var typeBuilder = moduleBuilder.DefineType(controllerType.Name, System.Reflection.TypeAttributes.Public, controllerType);
+                    var typeBuilder = moduleBuilder.DefineType(typeName, System.Reflection.TypeAttributes.Public, controllerType);
 
                     var classAttrCtorParams = new Type[] { typeof(string) };
                     var classAttrCtorInfo = typeof(RouteAttribute).GetConstructor(classAttrCtorParams);
@@ -67,11 +66,13 @@ namespace MediatR.HttpBindings
                     constructor.Emit(OpCodes.Nop);
                     constructor.Emit(OpCodes.Ret);
 
-                    var attrCtorParams = new Type[] { typeof(string) };
+                    var attrCtorParams = new Type[] { };
                     var attrCtorInfo = GetTypeFromMethod(method).GetConstructor(attrCtorParams);
-                    var attrBuilder = new CustomAttributeBuilder(attrCtorInfo, new object[] { url });
+                    var attrBuilder = new CustomAttributeBuilder(attrCtorInfo, new object[] { });
 
-                    var methodBuilder = typeBuilder.DefineMethod("ExecuteAsync", MethodAttributes.Public, CallingConventions.HasThis, typeof(Task<>).MakeGenericType(returnType), new[] { entityType });
+                    var executeAsyncMethodInfo = controllerType.GetMethod("ExecuteAsync", BindingFlags.Instance | BindingFlags.NonPublic, Type.DefaultBinder, new[] { entityType }, null);
+                    var methodBuilder = typeBuilder.DefineMethod("Handle", executeAsyncMethodInfo.Attributes, executeAsyncMethodInfo.CallingConvention, executeAsyncMethodInfo.ReturnType, executeAsyncMethodInfo.GetParameters().Select(p => p.ParameterType).ToArray());
+                    methodBuilder.DefineParameter(1, executeAsyncMethodInfo.GetParameters().First().Attributes, executeAsyncMethodInfo.GetParameters().First().Name);
                     var ilCode = methodBuilder.GetILGenerator();
                     ilCode.Emit(OpCodes.Ldarg_0);
                     ilCode.Emit(OpCodes.Ldarg_1); // load array argument
@@ -92,7 +93,7 @@ namespace MediatR.HttpBindings
                     {
                         ilCode.Emit(OpCodes.Castclass, entityType);
                     }
-                    ilCode.EmitCall(OpCodes.Call, controllerType.GetMethods().Single(m => m.Name == nameof(rrc.ExecuteAsync)), null);
+                    ilCode.EmitCall(OpCodes.Call, executeAsyncMethodInfo, null);
                     ilCode.Emit(OpCodes.Ret);
 
                     methodBuilder.SetCustomAttribute(attrBuilder);
@@ -133,7 +134,7 @@ namespace MediatR.HttpBindings
             {
                 this.mediator = mediator;
             }
-            public async Task<U> ExecuteAsync(T request)
+            protected async Task<U> ExecuteAsync(T request)
             {
                 return await mediator.Send(request);
             }
