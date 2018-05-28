@@ -26,8 +26,7 @@ namespace MediatR.HttpBindings.Api
         {
             services.AddMediatR(GetType().Assembly);
             services.AddMvc()
-                .ConfigureApplicationPartManager(apm =>
-                    apm.FeatureProviders.Add(new HttpBindingsProvider(GetType().Assembly)));
+                .AddMediatRHttpBindings(GetType().Assembly);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,45 +38,6 @@ namespace MediatR.HttpBindings.Api
             }
 
             app.UseMvc();
-        }
-    }
-
-
-    [HttpBinding("GET", "users")]
-    public class GetUsersRequest : IRequest<GetUsersResponse>
-    {
-
-    }
-
-    public class GetUsersResponse
-    {
-        public List<string> UserNames { get; set; }
-    }
-
-    public class GetUsersRequestHandler : AsyncRequestHandler<GetUsersRequest, GetUsersResponse>
-    {
-        protected override async Task<GetUsersResponse> Handle(GetUsersRequest request)
-        {
-            return new GetUsersResponse() { UserNames = new List<string> { "Robin" } };
-        }
-    }
-
-    [HttpBinding("POST", "users")]
-    public class AddUserRequest : IRequest<AddUserResponse>
-    {
-        public string Username { get; set; }
-    }
-
-    public class AddUserResponse
-    {
-        public string Id { get; set; }
-    }
-
-    public class AddUserRequestHandler : AsyncRequestHandler<AddUserRequest, AddUserResponse>
-    {
-        protected override async Task<AddUserResponse> Handle(AddUserRequest request)
-        {
-            return new AddUserResponse() { Id = request.Username };
         }
     }
 }
