@@ -3,23 +3,22 @@ using System.Threading.Tasks;
 
 namespace MediatR.HttpBindings.Api
 {
-
-    [HttpBinding("GET", "users")]
-    public class GetUsersRequest : IRequest<GetUsersResponse>
+    [HttpBinding("GET", "users/{id}")]
+    public class GetUserRequest : IRequest<GetUserResponse>
     {
-
+        public string Id { get; set; }
     }
 
-    public class GetUsersResponse
+    public class GetUserResponse
     {
         public List<string> UserNames { get; set; }
     }
 
-    public class GetUsersRequestHandler : AsyncRequestHandler<GetUsersRequest, GetUsersResponse>
+    public class GetUserRequestHandler : AsyncRequestHandler<GetUserRequest, GetUserResponse>
     {
-        protected override async Task<GetUsersResponse> Handle(GetUsersRequest request)
+        protected override async Task<GetUserResponse> Handle(GetUserRequest request)
         {
-            return new GetUsersResponse() { UserNames = new List<string> { "Robin" } };
+            return new GetUserResponse {UserNames = new List<string> {"Robin", request.Id}};
         }
     }
 }

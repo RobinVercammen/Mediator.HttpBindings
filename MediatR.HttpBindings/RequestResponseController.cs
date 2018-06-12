@@ -3,20 +3,18 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MediatR.HttpBindings
 {
-    public partial class HttpBindingsProvider
+    public class RequestResponseController<T, U> : Controller where T : IRequest<U>
     {
-        public class RequestResponseController<T, U> : Controller where T : IRequest<U>
-        {
-            private readonly IMediator mediator;
+        private readonly IMediator mediator;
 
-            public RequestResponseController(IMediator mediator)
-            {
-                this.mediator = mediator;
-            }
-            protected async Task<U> ExecuteAsync(T request)
-            {
-                return await mediator.Send(request);
-            }
+        public RequestResponseController(IMediator mediator)
+        {
+            this.mediator = mediator;
+        }
+
+        protected async Task<U> ExecuteAsync(T request)
+        {
+            return await mediator.Send(request);
         }
     }
 }
