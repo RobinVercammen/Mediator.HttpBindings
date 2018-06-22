@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.HttpBindings.Api", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.HttpBindings", "MediatR.HttpBindings\MediatR.HttpBindings.csproj", "{90FE8F2D-E9E9-46B2-9985-45EE1F086F6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.HttpBindings.CodeGeneration", "MediatR.HttpBindings.CodeGeneration\MediatR.HttpBindings.CodeGeneration.csproj", "{12BABA99-A2E8-4443-B357-F497DCB8C049}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +60,17 @@ Global
 		{90FE8F2D-E9E9-46B2-9985-45EE1F086F6C}.Release|x64.Build.0 = Release|Any CPU
 		{90FE8F2D-E9E9-46B2-9985-45EE1F086F6C}.Release|x86.ActiveCfg = Release|Any CPU
 		{90FE8F2D-E9E9-46B2-9985-45EE1F086F6C}.Release|x86.Build.0 = Release|Any CPU
+		{12BABA99-A2E8-4443-B357-F497DCB8C049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12BABA99-A2E8-4443-B357-F497DCB8C049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12BABA99-A2E8-4443-B357-F497DCB8C049}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{12BABA99-A2E8-4443-B357-F497DCB8C049}.Debug|x64.Build.0 = Debug|Any CPU
+		{12BABA99-A2E8-4443-B357-F497DCB8C049}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{12BABA99-A2E8-4443-B357-F497DCB8C049}.Debug|x86.Build.0 = Debug|Any CPU
+		{12BABA99-A2E8-4443-B357-F497DCB8C049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12BABA99-A2E8-4443-B357-F497DCB8C049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12BABA99-A2E8-4443-B357-F497DCB8C049}.Release|x64.ActiveCfg = Release|Any CPU
+		{12BABA99-A2E8-4443-B357-F497DCB8C049}.Release|x64.Build.0 = Release|Any CPU
+		{12BABA99-A2E8-4443-B357-F497DCB8C049}.Release|x86.ActiveCfg = Release|Any CPU
+		{12BABA99-A2E8-4443-B357-F497DCB8C049}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
