@@ -6,7 +6,7 @@ using Newtonsoft.Json;
 
 namespace MediatR.HttpBindings
 {
-    public class RequestModelBinder : IModelBinder
+    internal class RequestModelBinder : IModelBinder
     {
         public Task BindModelAsync(ModelBindingContext bindingContext)
         {

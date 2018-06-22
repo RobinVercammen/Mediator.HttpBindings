@@ -1,8 +1,9 @@
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace MediatR.HttpBindings.Api
 {
-    [HttpBinding("POST", "users")]
+    [HttpBinding]
     public class AddUserRequest : IRequest<AddUserResponse>
     {
         public string Username { get; set; }
@@ -13,10 +14,11 @@ namespace MediatR.HttpBindings.Api
         public string Id { get; set; }
     }
 
-    public class AddUserRequestHandler : AsyncRequestHandler<AddUserRequest, AddUserResponse>
+    public class AddUserRequestHandler : IRequestHandler<AddUserRequest, AddUserResponse>
     {
-        protected override async Task<AddUserResponse> Handle(AddUserRequest request)
+        public async Task<AddUserResponse> Handle(AddUserRequest request, CancellationToken cancellationToken)
         {
+            await Task.Delay(1000);
             return new AddUserResponse() { Id = request.Username };
         }
     }

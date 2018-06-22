@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 
 namespace MediatR.HttpBindings
 {
-    public class RequestModelBinderProvider : IModelBinderProvider
+    internal class RequestModelBinderProvider : IModelBinderProvider
     {
         public IModelBinder GetBinder(ModelBinderProviderContext context)
         {

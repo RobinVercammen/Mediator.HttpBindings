@@ -1,9 +1,10 @@
 using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace MediatR.HttpBindings.Api
 {
-    [HttpBinding("GET", "users/{id}")]
+    [HttpBinding]
     public class GetUserRequest : IRequest<GetUserResponse>
     {
         public string Id { get; set; }
@@ -14,10 +15,11 @@ namespace MediatR.HttpBindings.Api
         public List<string> UserNames { get; set; }
     }
 
-    public class GetUserRequestHandler : AsyncRequestHandler<GetUserRequest, GetUserResponse>
+    public class GetUserRequestHandler : IRequestHandler<GetUserRequest, GetUserResponse>
     {
-        protected override async Task<GetUserResponse> Handle(GetUserRequest request)
+        public async Task<GetUserResponse> Handle(GetUserRequest request, CancellationToken cancellationToken)
         {
+            await Task.Delay(100);
             return new GetUserResponse {UserNames = new List<string> {"Robin", request.Id}};
         }
     }

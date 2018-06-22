@@ -10,12 +10,14 @@ using Microsoft.AspNetCore.Mvc.Controllers;
 
 namespace MediatR.HttpBindings
 {
-    public class HttpBindingsProvider : IApplicationFeatureProvider<ControllerFeature>
+    internal class HttpBindingsProvider : IApplicationFeatureProvider<ControllerFeature>
     {
+        private readonly string _prefix;
         private readonly IEnumerable<Type> requests;
 
-        public HttpBindingsProvider(params Assembly[] requestAssemblies)
+        public HttpBindingsProvider(string prefix = null, params Assembly[] requestAssemblies)
         {
+            _prefix = prefix??string.Empty;
             requests = requestAssemblies.SelectMany(ra => ra.GetTypes())
                 .Where(t => t.GetCustomAttribute<HttpBindingAttribute>() != null);
         }
@@ -28,10 +30,7 @@ namespace MediatR.HttpBindings
                 var controllerName = requestType.Name + "Controller";
                 if (!feature.Controllers.Any(t => t.Name == controllerName))
                 {
-                    var httpBinding = requestType.GetCustomAttribute<HttpBindingAttribute>();
-                    var method = httpBinding.Method;
-                    var url = httpBinding.Url;
-
+                    var url = _prefix + requestType.Name;
                     var responseType = GetReturnTypeFromIRequest(requestType);
                     var controllerType =
                         typeof(RequestResponseController<,>).MakeGenericType(requestType, responseType);
@@ -47,7 +46,7 @@ namespace MediatR.HttpBindings
                     var paramBuilder = methodBuilder.DefineParameter(1, parameter.Attributes, parameter.Name);
 
                     CallBaseMethod(methodBuilder, parameters, executeAsyncMethodInfo);
-                    var attrBuilder = CreateMethodAttribute(method, url);
+                    var attrBuilder = CreateMethodAttribute(url);
                     methodBuilder.SetCustomAttribute(attrBuilder);
 
                     var type = typeBuilder.CreateTypeInfo();
@@ -97,10 +96,10 @@ namespace MediatR.HttpBindings
             return cbBuilder;
         }
 
-        private static CustomAttributeBuilder CreateMethodAttribute(string method, string url)
+        private static CustomAttributeBuilder CreateMethodAttribute(string url)
         {
             var attrCtorParams = new[] {typeof(string)};
-            var attrCtorInfo = GetTypeFromMethod(method).GetConstructor(attrCtorParams);
+            var attrCtorInfo = typeof(HttpPostAttribute).GetConstructor(attrCtorParams);
             var attrBuilder = new CustomAttributeBuilder(attrCtorInfo, new object[] {url});
             return attrBuilder;
         }
@@ -132,15 +131,6 @@ namespace MediatR.HttpBindings
 
             ilCode.Emit(OpCodes.Call, baseMethod);
             ilCode.Emit(OpCodes.Ret);
-        }
-
-        private static Type GetTypeFromMethod(string method)
-        {
-            if (method == HttpMethod.Get.Method) return typeof(HttpGetAttribute);
-            if (method == HttpMethod.Post.Method) return typeof(HttpPostAttribute);
-            if (method == HttpMethod.Put.Method) return typeof(HttpPutAttribute);
-            if (method == HttpMethod.Delete.Method) return typeof(HttpDeleteAttribute);
-            throw new InvalidOperationException($"Method {method} not supported");
         }
     }
 }

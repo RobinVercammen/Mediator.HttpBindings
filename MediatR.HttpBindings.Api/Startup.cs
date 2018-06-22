@@ -26,7 +26,7 @@ namespace MediatR.HttpBindings.Api
         {
             services.AddMediatR(GetType().Assembly);
             services.AddMvc()
-                .AddMediatRHttpBindings(GetType().Assembly);
+                .AddMediatRHttpBindings(null, GetType().Assembly);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
