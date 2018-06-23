@@ -6,19 +6,18 @@ namespace MediatR.HttpBindings.CodeGeneration
     public class InterfaceTemplateRenderer : ITemplateRenderer
     {
         private readonly Template _template;
-        private readonly Type _requestType;
+        private readonly Class _type;
 
-        public InterfaceTemplateRenderer(Template template, Type requestType)
+        public InterfaceTemplateRenderer(Template template, Class type)
         {
             _template = template;
-            _requestType = requestType;
+            _type = type;
         }
 
         public string Render()
         {
             var st = new Template(_template);
-            st.Add("request", _requestType);
-            st.Add("properties", _requestType.GetProperties());
+            st.Add("class", _type);
             return st.Render();
         }
     }

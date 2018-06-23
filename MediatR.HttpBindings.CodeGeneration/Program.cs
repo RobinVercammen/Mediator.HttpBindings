@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
-using System.Runtime.Loader;
-using System.Threading.Tasks;
 using Antlr4.StringTemplate;
 using CommandLine;
 
@@ -27,14 +24,14 @@ namespace MediatR.HttpBindings.CodeGeneration
             var requestTemplate = templateReader.Read(options.RequestTemplate);
             var classTemplate = templateReader.Read(options.ClassTemplate);
 
-            foreach (var request in requests)
+            foreach (var request in requests.Select(r=>new Class(r)))
             {
                 var reqRenderer = new RequestTemplateRenderer(new Template(requestTemplate), request);
                 var rendered = reqRenderer.Render();
                 Console.WriteLine(rendered);
             }
 
-            foreach (var response in responses.Concat(usedTypes))
+            foreach (var response in responses.Select(r=>new Class(r)).Concat(usedTypes.Select(r=>new Class(r))))
             {
                 var resRenderer = new ClassTemplateRenderer(new Template(classTemplate), response);
                 var rendered = resRenderer.Render();

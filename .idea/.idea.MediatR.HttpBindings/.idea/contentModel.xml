@@ -46,8 +46,10 @@
         <e p="AbsolutePath.cs" t="Include" />
         <e p="AssemblyLoader.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Class.cs" t="Include" />
         <e p="Class.st" t="Include" />
         <e p="ClassTemplateRenderer.cs" t="Include" />
+        <e p="Extend.cs" t="Include" />
         <e p="InterfaceTemplateRenderer.cs" t="Include" />
         <e p="ITemplateRenderer.cs" t="Include" />
         <e p="ITypeScanner.cs" t="Include" />
@@ -60,6 +62,7 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="Property.cs" t="Include" />
         <e p="RequestTemplateRenderer.cs" t="Include" />
         <e p="RequestTypeScanner.cs" t="Include" />
         <e p="ResponseTypeScanner.cs" t="Include" />
