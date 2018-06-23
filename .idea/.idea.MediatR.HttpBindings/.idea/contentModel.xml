@@ -43,7 +43,14 @@
         <e p="wwwroot" t="Include" />
       </e>
       <e p="MediatR.HttpBindings.CodeGeneration" t="IncludeRecursive">
+        <e p="AbsolutePath.cs" t="Include" />
+        <e p="AssemblyLoader.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Class.st" t="Include" />
+        <e p="ClassTemplateRenderer.cs" t="Include" />
+        <e p="InterfaceTemplateRenderer.cs" t="Include" />
+        <e p="ITemplateRenderer.cs" t="Include" />
+        <e p="ITypeScanner.cs" t="Include" />
         <e p="MediatR.HttpBindings.CodeGeneration.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
@@ -53,7 +60,12 @@
           </e>
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="RequestTemplateRenderer.cs" t="Include" />
+        <e p="RequestTypeScanner.cs" t="Include" />
+        <e p="ResponseTypeScanner.cs" t="Include" />
+        <e p="TemplateReader.cs" t="Include" />
         <e p="TypescriptRequest.st" t="Include" />
+        <e p="UsedTypesScanner.cs" t="Include" />
       </e>
       <e p="MediatR.HttpBindings.sln" t="IncludeFlat" />
       <e p="MediatR.HttpBindings.Test" t="IncludeRecursive">

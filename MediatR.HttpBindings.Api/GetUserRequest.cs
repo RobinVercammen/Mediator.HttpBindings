@@ -12,7 +12,13 @@ namespace MediatR.HttpBindings.Api
 
     public class GetUserResponse
     {
-        public List<string> UserNames { get; set; }
+        public User User { get; set; }
+    }
+
+    public class User
+    {
+        public string Name { get; set; }
+        public string Id { get; set; }
     }
 
     public class GetUserRequestHandler : IRequestHandler<GetUserRequest, GetUserResponse>
@@ -20,7 +26,7 @@ namespace MediatR.HttpBindings.Api
         public async Task<GetUserResponse> Handle(GetUserRequest request, CancellationToken cancellationToken)
         {
             await Task.Delay(100);
-            return new GetUserResponse {UserNames = new List<string> {"Robin", request.Id}};
+            return new GetUserResponse {User = new User {Name = "Robin", Id = request.Id}};
         }
     }
 }

@@ -5,10 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df9a4140-b4d0-4dfc-bcf4-52c26ba462e0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/TypescriptRequest.st" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/AbsolutePath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/AssemblyLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/Class.st" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/ClassTemplateRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/ITemplateRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/ITypeScanner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/InterfaceTemplateRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/RequestTemplateRenderer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/RequestTypeScanner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/ResponseTypeScanner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/TemplateReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/UsedTypesScanner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MediatR.HttpBindings/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MediatR.HttpBindings/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MediatR.HttpBindings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MediatR.HttpBindings/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MediatR.HttpBindings.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MediatR.HttpBindings.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediatR.HttpBindings.Api/GetUserRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MediatR.HttpBindings.Api/GetUserRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/TypescriptRequest.st" beforeDir="false" afterPath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/TypescriptRequest.st" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MediatR.HttpBindings.Test/Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MediatR.HttpBindings.Test/Test.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,48 +33,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GetUsersRequest.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.Api/GetUsersRequest.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-              <folding>
-                <marker date="1529691920199" expanded="false" signature="6:87" ph="..." />
-                <marker date="1529691920199" expanded="true" signature="123:676" ph="{...}" />
-                <marker date="1529691920199" expanded="true" signature="205:217" ph="{...}" />
-                <marker date="1529691920199" expanded="true" signature="252:316" ph="{...}" />
-                <marker date="1529691920199" expanded="true" signature="410:674" ph="{...}" />
-                <marker date="1529691920199" expanded="true" signature="529:668" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GetUserRequest.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.Api/GetUserRequest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="195">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding>
-                <marker date="1529691889949" expanded="false" signature="6:87" ph="..." />
-                <marker date="1529691889949" expanded="true" signature="203:254" ph="{...}" />
-                <marker date="1529691889949" expanded="true" signature="288:352" ph="{...}" />
-                <marker date="1529691889949" expanded="true" signature="443:714" ph="{...}" />
-                <marker date="1529691889949" expanded="true" signature="560:708" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.Test/Test.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1529689045829" expanded="false" signature="6:60" ph="..." />
-                <marker date="1529689045829" expanded="true" signature="97:198" ph="{...}" />
-                <marker date="1529689045829" expanded="true" signature="121:196" ph="{...}" />
-                <marker date="1529689045829" expanded="true" signature="170:190" ph="{...}" />
+                <marker date="1529752268930" expanded="false" signature="6:87" ph="..." />
+                <marker date="1529752268930" expanded="true" signature="123:817" ph="{...}" />
+                <marker date="1529752268930" expanded="true" signature="203:254" ph="{...}" />
+                <marker date="1529752268930" expanded="true" signature="288:339" ph="{...}" />
+                <marker date="1529752268930" expanded="true" signature="362:454" ph="{...}" />
+                <marker date="1529752268930" expanded="true" signature="545:815" ph="{...}" />
+                <marker date="1529752268930" expanded="true" signature="662:809" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -83,62 +68,110 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HttpBindingsProvider.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings/HttpBindingsProvider.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-              <folding>
-                <marker date="1529690427593" expanded="false" signature="6:269" ph="..." />
-                <marker date="1529690427593" expanded="true" signature="301:6131" ph="{...}" />
-                <marker date="1529690427593" expanded="true" signature="392:6129" ph="{...}" />
-                <marker date="1529690427593" expanded="true" signature="588:808" ph="{...}" />
-                <marker date="1529690427593" expanded="true" signature="908:2540" ph="{...}" />
-                <marker date="1529690427593" expanded="true" signature="1027:2530" ph="{...}" />
-                <marker date="1529690427593" expanded="true" signature="1188:2516" ph="{...}" />
-                <marker date="1529690427593" expanded="true" signature="2603:2786" ph="{...}" />
-                <marker date="1529690427593" expanded="true" signature="2894:3337" ph="{...}" />
-                <marker date="1529690427593" expanded="true" signature="3407:3733" ph="{...}" />
-                <marker date="1529690427593" expanded="true" signature="3841:4576" ph="{...}" />
-                <marker date="1529690427593" expanded="true" signature="4657:4947" ph="{...}" />
-                <marker date="1529690427593" expanded="true" signature="5035:5227" ph="{...}" />
-                <marker date="1529690427593" expanded="true" signature="5328:5593" ph="{...}" />
-                <marker date="1529690427593" expanded="true" signature="5729:6123" ph="{...}" />
-                <marker date="1529690427593" expanded="true" signature="5895:6023" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RequestResponseController.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings/RequestResponseController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-              <folding>
-                <marker date="1529692709359" expanded="false" signature="6:61" ph="..." />
-                <marker date="1529692709359" expanded="true" signature="93:484" ph="{...}" />
-                <marker date="1529692709359" expanded="true" signature="179:482" ph="{...}" />
-                <marker date="1529692709359" expanded="true" signature="292:350" ph="{...}" />
-                <marker date="1529692709359" expanded="true" signature="407:476" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="35" column="62" lean-forward="true" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+            <state relative-caret-position="240">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding>
-                <marker date="1529697166815" expanded="true" signature="6:233" ph="..." />
-                <marker date="1529697166815" expanded="true" signature="280:2191" ph="{...}" />
-                <marker date="1529697166815" expanded="true" signature="314:2189" ph="{...}" />
-                <marker date="1529697166815" expanded="true" signature="373:1599" ph="{...}" />
-                <marker date="1529697166815" expanded="true" signature="1103:1383" ph="{...}" />
-                <marker date="1529697166815" expanded="true" signature="1675:1802" ph="{...}" />
-                <marker date="1529697166815" expanded="true" signature="1833:2183" ph="{...}" />
+                <marker date="1529752051673" expanded="false" signature="6:191" ph="..." />
+                <marker date="1529752051673" expanded="true" signature="238:2155" ph="{...}" />
+                <marker date="1529752051673" expanded="true" signature="272:2153" ph="{...}" />
+                <marker date="1529752051673" expanded="true" signature="325:1605" ph="{...}" />
+                <marker date="1529752051673" expanded="true" signature="1073:1302" ph="{...}" />
+                <marker date="1529752051673" expanded="true" signature="1369:1595" ph="{...}" />
+                <marker date="1529752051673" expanded="true" signature="1636:2147" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseTypeScanner.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/ResponseTypeScanner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <marker date="1529752058185" expanded="false" signature="6:66" ph="..." />
+                <marker date="1529752058185" expanded="true" signature="113:709" ph="{...}" />
+                <marker date="1529752058185" expanded="true" signature="167:707" ph="{...}" />
+                <marker date="1529752058185" expanded="true" signature="299:428" ph="{...}" />
+                <marker date="1529752058185" expanded="true" signature="469:701" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsedTypesScanner.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/UsedTypesScanner.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <marker date="1529752188716" expanded="false" signature="6:66" ph="..." />
+                <marker date="1529752188716" expanded="true" signature="113:1095" ph="{...}" />
+                <marker date="1529752188716" expanded="true" signature="164:1093" ph="{...}" />
+                <marker date="1529752188716" expanded="true" signature="279:377" ph="{...}" />
+                <marker date="1529752188716" expanded="true" signature="418:928" ph="{...}" />
+                <marker date="1529752188716" expanded="true" signature="614:847" ph="{...}" />
+                <marker date="1529752188716" expanded="true" signature="744:833" ph="{...}" />
+                <marker date="1529752188716" expanded="true" signature="998:1087" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Class.st" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/Class.st">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemplateReader.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/TemplateReader.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+              <folding>
+                <marker date="1529751255737" expanded="false" signature="6:30" ph="..." />
+                <marker date="1529751255737" expanded="true" signature="77:380" ph="{...}" />
+                <marker date="1529751255737" expanded="true" signature="111:378" ph="{...}" />
+                <marker date="1529751255737" expanded="true" signature="157:372" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AssemblyLoader.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/AssemblyLoader.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding>
+                <marker date="1529751260493" expanded="true" signature="6:120" ph="..." />
+                <marker date="1529751260493" expanded="true" signature="167:857" ph="{...}" />
+                <marker date="1529751260493" expanded="true" signature="201:855" ph="{...}" />
+                <marker date="1529751260493" expanded="true" signature="342:537" ph="{...}" />
+                <marker date="1529751260493" expanded="true" signature="600:674" ph="{...}" />
+                <marker date="1529751260493" expanded="true" signature="719:849" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbsolutePath.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/AbsolutePath.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1529750965079" expanded="false" signature="6:30" ph="..." />
+                <marker date="1529750965079" expanded="true" signature="77:511" ph="{...}" />
+                <marker date="1529750965079" expanded="true" signature="109:509" ph="{...}" />
+                <marker date="1529750965079" expanded="true" signature="196:414" ph="{...}" />
+                <marker date="1529750965079" expanded="true" signature="457:503" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -147,17 +180,8 @@
       <file leaf-file-name="TypescriptRequest.st" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/TypescriptRequest.st">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MediatR.HttpBindings.Test.csproj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.Test/MediatR.HttpBindings.Test.csproj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="15">
+              <caret line="1" column="74" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
             </state>
           </provider>
         </entry>
@@ -183,15 +207,20 @@
     <setting file="file://$PROJECT_DIR$/MediatR.HttpBindings/RequestModelBinderProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MediatR.HttpBindings/RequestResponseController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MediatR.HttpBindings/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/AbsolutePath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/TemplateReader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8E759964-E83B-4D60-8BE5-22AA011DCB7B/5f/c55301ad/AsyncRequestHandler`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/UsedTypesScanner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8E759964-E83B-4D60-8BE5-22AA011DCB7B/c0/cef33d7e/IRequest`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/17EF80E1-8AD2-4195-9CE5-AFBABBAA8DF3/34/96a29d00/Type.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8E759964-E83B-4D60-8BE5-22AA011DCB7B/6e/fe1e13ea/IRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/AssemblyLoader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MediatR.HttpBindings.Test/Test.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MediatR.HttpBindings.Api/GetUsersRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MediatR.HttpBindings.Api/AddUserRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MediatR.HttpBindings.Api/GetUserRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/ResponseTypeScanner.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -206,12 +235,18 @@
         <option value="$PROJECT_DIR$/MediatR.HttpBindings.Test/MediatR.HttpBindings.Test.csproj" />
         <option value="$PROJECT_DIR$/MediatR.HttpBindings.Api/MediatR.HttpBindings.Api.csproj" />
         <option value="$PROJECT_DIR$/MediatR.HttpBindings.Api/AddUserRequest.cs" />
-        <option value="$PROJECT_DIR$/MediatR.HttpBindings.Api/GetUserRequest.cs" />
         <option value="$PROJECT_DIR$/MediatR.HttpBindings.Api/GetUsersRequest.cs" />
         <option value="$PROJECT_DIR$/MediatR.HttpBindings/RequestResponseController.cs" />
         <option value="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/Class1.cs" />
+        <option value="$PROJECT_DIR$/MediatR.HttpBindings.Test/Test.cs" />
+        <option value="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/AssemblyLoader.cs" />
+        <option value="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/TemplateReader.cs" />
+        <option value="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/Class.st" />
         <option value="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/TypescriptRequest.st" />
+        <option value="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/ResponseTypeScanner.cs" />
         <option value="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/Program.cs" />
+        <option value="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/UsedTypesScanner.cs" />
+        <option value="$PROJECT_DIR$/MediatR.HttpBindings.Api/GetUserRequest.cs" />
       </list>
     </option>
   </component>
@@ -219,6 +254,9 @@
     <option name="y" value="22" />
     <option name="width" value="1920" />
     <option name="height" value="1178" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -236,17 +274,17 @@
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="MediatR.HttpBindings (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="MediatR.HttpBindings" type="977d5f41:SolutionExplorerNodeRider" />
-            </path>
-            <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="MediatR.HttpBindings (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="MediatR.HttpBindings.Api" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="MediatR.HttpBindings (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="MediatR.HttpBindings.CodeGeneration" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="MediatR.HttpBindings (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="MediatR.HttpBindings.Test" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -326,12 +364,13 @@
       <workItem from="1528826261673" duration="4188000" />
       <workItem from="1529689084056" duration="2034000" />
       <workItem from="1529691231812" duration="941000" />
-      <workItem from="1529692199552" duration="4642000" />
+      <workItem from="1529692199552" duration="4691000" />
+      <workItem from="1529737409912" duration="4646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11805000" />
+    <option name="totallyTimeSpent" value="16500000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,6 +383,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -351,9 +391,9 @@
       <window_info anchor="bottom" id="Unit Tests" order="7" weight="0.32977778" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3288889" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23022223" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23022223" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.3288889" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22896698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23109691" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3288889" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293247" />
@@ -377,76 +417,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/Program.cs</url>
-          <line>42</line>
-          <properties documentPath="$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/Program.cs" initialLine="25">
-            <startOffsets>
-              <startOffset value="1433" />
-            </startOffsets>
-            <endOffsets>
-              <endOffset value="1504" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.Api/GetUsersRequest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <marker date="1529691920199" expanded="false" signature="6:87" ph="..." />
-            <marker date="1529691920199" expanded="true" signature="123:676" ph="{...}" />
-            <marker date="1529691920199" expanded="true" signature="205:217" ph="{...}" />
-            <marker date="1529691920199" expanded="true" signature="252:316" ph="{...}" />
-            <marker date="1529691920199" expanded="true" signature="410:674" ph="{...}" />
-            <marker date="1529691920199" expanded="true" signature="529:668" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.Api/GetUserRequest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <marker date="1529691889949" expanded="false" signature="6:87" ph="..." />
-            <marker date="1529691889949" expanded="true" signature="203:254" ph="{...}" />
-            <marker date="1529691889949" expanded="true" signature="288:352" ph="{...}" />
-            <marker date="1529691889949" expanded="true" signature="443:714" ph="{...}" />
-            <marker date="1529691889949" expanded="true" signature="560:708" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings/MediatR.HttpBindings.csproj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.Api/MediatR.HttpBindings.Api.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.Test/Test.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1529689045829" expanded="false" signature="6:60" ph="..." />
-            <marker date="1529689045829" expanded="true" signature="97:198" ph="{...}" />
-            <marker date="1529689045829" expanded="true" signature="121:196" ph="{...}" />
-            <marker date="1529689045829" expanded="true" signature="170:190" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.Api/AddUserRequest.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -466,14 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <marker date="1529690416318" expanded="false" signature="6:353" ph="..." />
-            <marker date="1529690416318" expanded="true" signature="416:1286" ph="{...}" />
-            <marker date="1529690416318" expanded="true" signature="475:538" ph="{...}" />
-            <marker date="1529690416318" expanded="true" signature="761:931" ph="{...}" />
-            <marker date="1529690416318" expanded="true" signature="1119:1280" ph="{...}" />
-            <marker date="1529690416318" expanded="true" signature="1166:1243" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,7 +470,6 @@
           <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <marker date="1529691920199" expanded="false" signature="6:87" ph="..." />
-            <marker date="1529691920199" expanded="true" signature="123:676" ph="{...}" />
             <marker date="1529691920199" expanded="true" signature="205:217" ph="{...}" />
             <marker date="1529691920199" expanded="true" signature="252:316" ph="{...}" />
             <marker date="1529691920199" expanded="true" signature="410:674" ph="{...}" />
@@ -518,11 +483,13 @@
         <state relative-caret-position="330">
           <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
-            <marker date="1529691889949" expanded="false" signature="6:87" ph="..." />
-            <marker date="1529691889949" expanded="true" signature="203:254" ph="{...}" />
-            <marker date="1529691889949" expanded="true" signature="288:352" ph="{...}" />
-            <marker date="1529691889949" expanded="true" signature="443:714" ph="{...}" />
-            <marker date="1529691889949" expanded="true" signature="560:708" ph="{...}" />
+            <marker date="1529752268930" expanded="false" signature="6:87" ph="..." />
+            <marker date="1529752268930" expanded="true" signature="123:817" ph="{...}" />
+            <marker date="1529752268930" expanded="true" signature="203:254" ph="{...}" />
+            <marker date="1529752268930" expanded="true" signature="288:339" ph="{...}" />
+            <marker date="1529752268930" expanded="true" signature="362:454" ph="{...}" />
+            <marker date="1529752268930" expanded="true" signature="545:815" ph="{...}" />
+            <marker date="1529752268930" expanded="true" signature="662:809" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -549,14 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <marker date="1529690416318" expanded="false" signature="6:353" ph="..." />
-            <marker date="1529690416318" expanded="true" signature="416:1286" ph="{...}" />
-            <marker date="1529690416318" expanded="true" signature="475:538" ph="{...}" />
-            <marker date="1529690416318" expanded="true" signature="761:931" ph="{...}" />
-            <marker date="1529690416318" expanded="true" signature="1119:1280" ph="{...}" />
-            <marker date="1529690416318" expanded="true" signature="1166:1243" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -573,7 +532,6 @@
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <marker date="1529692709359" expanded="false" signature="6:61" ph="..." />
-            <marker date="1529692709359" expanded="true" signature="93:484" ph="{...}" />
             <marker date="1529692709359" expanded="true" signature="179:482" ph="{...}" />
             <marker date="1529692709359" expanded="true" signature="292:350" ph="{...}" />
             <marker date="1529692709359" expanded="true" signature="407:476" ph="{...}" />
@@ -614,7 +572,6 @@
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <marker date="1529691920199" expanded="false" signature="6:87" ph="..." />
-            <marker date="1529691920199" expanded="true" signature="123:676" ph="{...}" />
             <marker date="1529691920199" expanded="true" signature="205:217" ph="{...}" />
             <marker date="1529691920199" expanded="true" signature="252:316" ph="{...}" />
             <marker date="1529691920199" expanded="true" signature="410:674" ph="{...}" />
@@ -628,11 +585,13 @@
         <state relative-caret-position="345">
           <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
-            <marker date="1529691889949" expanded="false" signature="6:87" ph="..." />
-            <marker date="1529691889949" expanded="true" signature="203:254" ph="{...}" />
-            <marker date="1529691889949" expanded="true" signature="288:352" ph="{...}" />
-            <marker date="1529691889949" expanded="true" signature="443:714" ph="{...}" />
-            <marker date="1529691889949" expanded="true" signature="560:708" ph="{...}" />
+            <marker date="1529752268930" expanded="false" signature="6:87" ph="..." />
+            <marker date="1529752268930" expanded="true" signature="123:817" ph="{...}" />
+            <marker date="1529752268930" expanded="true" signature="203:254" ph="{...}" />
+            <marker date="1529752268930" expanded="true" signature="288:339" ph="{...}" />
+            <marker date="1529752268930" expanded="true" signature="362:454" ph="{...}" />
+            <marker date="1529752268930" expanded="true" signature="545:815" ph="{...}" />
+            <marker date="1529752268930" expanded="true" signature="662:809" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -656,14 +615,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-          <folding>
-            <marker date="1529690416318" expanded="false" signature="6:353" ph="..." />
-            <marker date="1529690416318" expanded="true" signature="416:1286" ph="{...}" />
-            <marker date="1529690416318" expanded="true" signature="475:538" ph="{...}" />
-            <marker date="1529690416318" expanded="true" signature="761:931" ph="{...}" />
-            <marker date="1529690416318" expanded="true" signature="1119:1280" ph="{...}" />
-            <marker date="1529690416318" expanded="true" signature="1166:1243" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -680,7 +631,6 @@
           <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
             <marker date="1529692709359" expanded="false" signature="6:61" ph="..." />
-            <marker date="1529692709359" expanded="true" signature="93:484" ph="{...}" />
             <marker date="1529692709359" expanded="true" signature="179:482" ph="{...}" />
             <marker date="1529692709359" expanded="true" signature="292:350" ph="{...}" />
             <marker date="1529692709359" expanded="true" signature="407:476" ph="{...}" />
@@ -722,14 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <marker date="1529690416318" expanded="false" signature="6:353" ph="..." />
-            <marker date="1529690416318" expanded="true" signature="416:1286" ph="{...}" />
-            <marker date="1529690416318" expanded="true" signature="475:538" ph="{...}" />
-            <marker date="1529690416318" expanded="true" signature="761:931" ph="{...}" />
-            <marker date="1529690416318" expanded="true" signature="1119:1280" ph="{...}" />
-            <marker date="1529690416318" expanded="true" signature="1166:1243" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,18 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.Test/Test.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1529689045829" expanded="false" signature="6:60" ph="..." />
-            <marker date="1529689045829" expanded="true" signature="97:198" ph="{...}" />
-            <marker date="1529689045829" expanded="true" signature="121:196" ph="{...}" />
-            <marker date="1529689045829" expanded="true" signature="170:190" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -783,27 +713,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.Api/GetUserRequest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <marker date="1529691889949" expanded="false" signature="6:87" ph="..." />
-            <marker date="1529691889949" expanded="true" signature="203:254" ph="{...}" />
-            <marker date="1529691889949" expanded="true" signature="288:352" ph="{...}" />
-            <marker date="1529691889949" expanded="true" signature="443:714" ph="{...}" />
-            <marker date="1529691889949" expanded="true" signature="560:708" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.Api/GetUsersRequest.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding>
             <marker date="1529691920199" expanded="false" signature="6:87" ph="..." />
-            <marker date="1529691920199" expanded="true" signature="123:676" ph="{...}" />
             <marker date="1529691920199" expanded="true" signature="205:217" ph="{...}" />
             <marker date="1529691920199" expanded="true" signature="252:316" ph="{...}" />
             <marker date="1529691920199" expanded="true" signature="410:674" ph="{...}" />
@@ -812,28 +727,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.Api/AddUserRequest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding>
-            <marker date="1529691860033" expanded="false" signature="6:53" ph="..." />
-            <marker date="1529691860033" expanded="true" signature="89:651" ph="{...}" />
-            <marker date="1529691860033" expanded="true" signature="169:226" ph="{...}" />
-            <marker date="1529691860033" expanded="true" signature="260:311" ph="{...}" />
-            <marker date="1529691860033" expanded="true" signature="402:649" ph="{...}" />
-            <marker date="1529691860033" expanded="true" signature="519:643" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings/HttpBindingsProvider.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="435">
           <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
           <folding>
             <marker date="1529690427593" expanded="false" signature="6:269" ph="..." />
-            <marker date="1529690427593" expanded="true" signature="301:6131" ph="{...}" />
             <marker date="1529690427593" expanded="true" signature="392:6129" ph="{...}" />
             <marker date="1529690427593" expanded="true" signature="588:808" ph="{...}" />
             <marker date="1529690427593" expanded="true" signature="908:2540" ph="{...}" />
@@ -858,7 +757,6 @@
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
             <marker date="1529692709359" expanded="false" signature="6:61" ph="..." />
-            <marker date="1529692709359" expanded="true" signature="93:484" ph="{...}" />
             <marker date="1529692709359" expanded="true" signature="179:482" ph="{...}" />
             <marker date="1529692709359" expanded="true" signature="292:350" ph="{...}" />
             <marker date="1529692709359" expanded="true" signature="407:476" ph="{...}" />
@@ -873,26 +771,149 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.Test/Test.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <marker date="1529738889434" expanded="false" signature="6:101" ph="..." />
+            <marker date="1529738889434" expanded="true" signature="138:386" ph="{...}" />
+            <marker date="1529738889434" expanded="true" signature="162:384" ph="{...}" />
+            <marker date="1529738889434" expanded="true" signature="211:378" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.Api/AddUserRequest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <marker date="1529691860033" expanded="false" signature="6:53" ph="..." />
+            <marker date="1529691860033" expanded="true" signature="89:651" ph="{...}" />
+            <marker date="1529691860033" expanded="true" signature="169:226" ph="{...}" />
+            <marker date="1529691860033" expanded="true" signature="260:311" ph="{...}" />
+            <marker date="1529691860033" expanded="true" signature="402:649" ph="{...}" />
+            <marker date="1529691860033" expanded="true" signature="519:643" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/AbsolutePath.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1529750965079" expanded="false" signature="6:30" ph="..." />
+            <marker date="1529750965079" expanded="true" signature="77:511" ph="{...}" />
+            <marker date="1529750965079" expanded="true" signature="109:509" ph="{...}" />
+            <marker date="1529750965079" expanded="true" signature="196:414" ph="{...}" />
+            <marker date="1529750965079" expanded="true" signature="457:503" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/AssemblyLoader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1529751260493" expanded="true" signature="6:120" ph="..." />
+            <marker date="1529751260493" expanded="true" signature="167:857" ph="{...}" />
+            <marker date="1529751260493" expanded="true" signature="201:855" ph="{...}" />
+            <marker date="1529751260493" expanded="true" signature="342:537" ph="{...}" />
+            <marker date="1529751260493" expanded="true" signature="600:674" ph="{...}" />
+            <marker date="1529751260493" expanded="true" signature="719:849" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/Class.st">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/ResponseTypeScanner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <marker date="1529752058185" expanded="false" signature="6:66" ph="..." />
+            <marker date="1529752058185" expanded="true" signature="113:709" ph="{...}" />
+            <marker date="1529752058185" expanded="true" signature="167:707" ph="{...}" />
+            <marker date="1529752058185" expanded="true" signature="299:428" ph="{...}" />
+            <marker date="1529752058185" expanded="true" signature="469:701" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/TemplateReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding>
+            <marker date="1529751255737" expanded="false" signature="6:30" ph="..." />
+            <marker date="1529751255737" expanded="true" signature="77:380" ph="{...}" />
+            <marker date="1529751255737" expanded="true" signature="111:378" ph="{...}" />
+            <marker date="1529751255737" expanded="true" signature="157:372" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="35" column="62" lean-forward="true" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+        <state relative-caret-position="240">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
-            <marker date="1529697166815" expanded="true" signature="6:233" ph="..." />
-            <marker date="1529697166815" expanded="true" signature="280:2191" ph="{...}" />
-            <marker date="1529697166815" expanded="true" signature="314:2189" ph="{...}" />
-            <marker date="1529697166815" expanded="true" signature="373:1599" ph="{...}" />
-            <marker date="1529697166815" expanded="true" signature="1103:1383" ph="{...}" />
-            <marker date="1529697166815" expanded="true" signature="1675:1802" ph="{...}" />
-            <marker date="1529697166815" expanded="true" signature="1833:2183" ph="{...}" />
+            <marker date="1529752051673" expanded="false" signature="6:191" ph="..." />
+            <marker date="1529752051673" expanded="true" signature="238:2155" ph="{...}" />
+            <marker date="1529752051673" expanded="true" signature="272:2153" ph="{...}" />
+            <marker date="1529752051673" expanded="true" signature="325:1605" ph="{...}" />
+            <marker date="1529752051673" expanded="true" signature="1073:1302" ph="{...}" />
+            <marker date="1529752051673" expanded="true" signature="1369:1595" ph="{...}" />
+            <marker date="1529752051673" expanded="true" signature="1636:2147" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/UsedTypesScanner.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <marker date="1529752188716" expanded="false" signature="6:66" ph="..." />
+            <marker date="1529752188716" expanded="true" signature="113:1095" ph="{...}" />
+            <marker date="1529752188716" expanded="true" signature="164:1093" ph="{...}" />
+            <marker date="1529752188716" expanded="true" signature="279:377" ph="{...}" />
+            <marker date="1529752188716" expanded="true" signature="418:928" ph="{...}" />
+            <marker date="1529752188716" expanded="true" signature="614:847" ph="{...}" />
+            <marker date="1529752188716" expanded="true" signature="744:833" ph="{...}" />
+            <marker date="1529752188716" expanded="true" signature="998:1087" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.Api/GetUserRequest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <marker date="1529752268930" expanded="false" signature="6:87" ph="..." />
+            <marker date="1529752268930" expanded="true" signature="123:817" ph="{...}" />
+            <marker date="1529752268930" expanded="true" signature="203:254" ph="{...}" />
+            <marker date="1529752268930" expanded="true" signature="288:339" ph="{...}" />
+            <marker date="1529752268930" expanded="true" signature="362:454" ph="{...}" />
+            <marker date="1529752268930" expanded="true" signature="545:815" ph="{...}" />
+            <marker date="1529752268930" expanded="true" signature="662:809" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/TypescriptRequest.st">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="15">
+          <caret line="1" column="74" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
         </state>
       </provider>
     </entry>

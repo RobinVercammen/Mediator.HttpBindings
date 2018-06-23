@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Net;
-using System.Reflection;
 using System.Runtime.Loader;
 using System.Threading.Tasks;
 using Antlr4.StringTemplate;
@@ -13,40 +11,35 @@ namespace MediatR.HttpBindings.CodeGeneration
 {
     public static class Program
     {
-        public static async Task Main(string[] args)
+        public static void Main(string[] args)
         {
             Options options = null;
             Parser.Default.ParseArguments<Options>(args)
                 .WithParsed(opts => options = opts);
 
-            var assemblies = LoadAssemblies(options.Assemblies);
+            var assemblies = new AssemblyLoader(options.Assemblies).Load();
 
-            var requests = assemblies.SelectMany(a =>
-                a.GetTypes().Where(t => t.GetCustomAttribute(typeof(HttpBindingAttribute)) != null)).ToArray();
-            var responses = requests.Select(req =>
-                req.GetInterfaces().First(i => i.GetGenericArguments().Any() && i.Name.StartsWith("IRequest"))
-                    .GetGenericArguments().Single());
+            var requests = new RequestTypeScanner(assemblies).Scan().ToArray();
+            var responses = new ResponseTypeScanner(requests).Scan().ToArray();
+            var usedTypes = new UsedTypesScanner(requests.Concat(responses)).Scan().ToArray();
 
-            var requestTemplate = File.ReadAllText(options.RequestTemplate);
+            var templateReader = new TemplateReader();
+            var requestTemplate = templateReader.Read(options.RequestTemplate);
+            var classTemplate = templateReader.Read(options.ClassTemplate);
 
             foreach (var request in requests)
             {
-                var st = new Template(requestTemplate);
-                st.Add("request", request);
-                st.Add("properties", request.GetProperties());
-                var rendered = st.Render();
+                var reqRenderer = new RequestTemplateRenderer(new Template(requestTemplate), request);
+                var rendered = reqRenderer.Render();
                 Console.WriteLine(rendered);
             }
 
-
-            await Task.Delay(100);
-            Console.WriteLine(string.Join(", ", requests.Select(r => r.FullName)));
-            Console.WriteLine(string.Join(", ", responses.Select(r => r.FullName)));
-        }
-
-        public static Assembly[] LoadAssemblies(IEnumerable<string> paths)
-        {
-            return paths.Select(path => AssemblyLoadContext.Default.LoadFromAssemblyPath(path)).ToArray();
+            foreach (var response in responses.Concat(usedTypes))
+            {
+                var resRenderer = new ClassTemplateRenderer(new Template(classTemplate), response);
+                var rendered = resRenderer.Render();
+                Console.WriteLine(rendered);
+            }
         }
 
         private class Options
@@ -56,6 +49,9 @@ namespace MediatR.HttpBindings.CodeGeneration
 
             [Option('r', "requesttemplate", Required = true, HelpText = "Request template to be processed.")]
             public string RequestTemplate { get; set; }
+
+            [Option('c', "classtemplate", Required = true, HelpText = "Class template to be processed.")]
+            public string ClassTemplate { get; set; }
         }
     }
 }
