@@ -5,7 +5,7 @@ using System.Reflection;
 
 namespace MediatR.HttpBindings.CodeGeneration
 {
-    public class RequestTypeScanner:ITypeScanner
+    public class RequestTypeScanner : ITypeScanner
     {
         private readonly IEnumerable<Assembly> _assemblies;
 
@@ -17,7 +17,7 @@ namespace MediatR.HttpBindings.CodeGeneration
         public IEnumerable<Type> Scan()
         {
             return _assemblies.SelectMany(a =>
-                a.GetTypes().Where(t => CustomAttributeExtensions.GetCustomAttribute((MemberInfo) t, typeof(HttpBindingAttribute)) != null)).ToArray();
+                a.GetTypes().Where(t => t.GetCustomAttribute(typeof(HttpBindingAttribute)) != null)).ToArray();
         }
     }
 }

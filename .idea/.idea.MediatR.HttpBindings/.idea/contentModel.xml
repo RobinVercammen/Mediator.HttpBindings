@@ -49,6 +49,9 @@
         <e p="Class.cs" t="Include" />
         <e p="Class.st" t="Include" />
         <e p="ClassTemplateRenderer.cs" t="Include" />
+        <e p="Contract.cs" t="Include" />
+        <e p="ContractFactory.cs" t="Include" />
+        <e p="ContractWriter.cs" t="Include" />
         <e p="Extend.cs" t="Include" />
         <e p="InterfaceTemplateRenderer.cs" t="Include" />
         <e p="ITemplateRenderer.cs" t="Include" />

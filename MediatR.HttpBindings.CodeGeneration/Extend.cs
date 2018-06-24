@@ -8,7 +8,7 @@ namespace MediatR.HttpBindings.CodeGeneration
         public Extend(Type type)
         {
             if (type == null) throw new ArgumentNullException(nameof(type));
-            TypeName = type.Name;
+            TypeName = type.Name.Split('`').First();
             GenericArguments = type.GetGenericArguments().Select(t => t.Name).ToArray();
         }
 

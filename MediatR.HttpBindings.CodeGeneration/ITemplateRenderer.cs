@@ -2,6 +2,6 @@
 {
     public interface ITemplateRenderer
     {
-        string Render();
+        string Render(Class type);
     }
 }

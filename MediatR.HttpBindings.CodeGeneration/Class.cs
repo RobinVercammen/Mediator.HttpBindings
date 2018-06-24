@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace MediatR.HttpBindings.CodeGeneration
@@ -16,5 +17,15 @@ namespace MediatR.HttpBindings.CodeGeneration
         public string TypeName { get; }
         public Extend[] Extends { get; }
         public Property[] Properties { get; }
+
+        private static Class FromType(Type type)
+        {
+            return new Class(type);
+        }
+
+        public static IEnumerable<Class> FromTypes(IEnumerable<Type> types)
+        {
+            return types.Select(FromType);
+        }
     }
 }

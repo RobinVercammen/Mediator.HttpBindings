@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace MediatR.HttpBindings.CodeGeneration
 {
-    interface ITypeScanner
+    internal interface ITypeScanner
     {
         IEnumerable<Type> Scan();
     }
