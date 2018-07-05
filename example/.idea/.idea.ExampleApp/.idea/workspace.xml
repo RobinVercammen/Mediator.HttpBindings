@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d180e37-b18a-4b4e-8585-ecb693f23a09" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="GetValuesRequest.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExampleApp.Contracts/GetValuesRequest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <marker date="1530817794956" expanded="true" signature="6:42" ph="..." />
+                <marker date="1530817794956" expanded="true" signature="74:172" ph="{...}" />
+                <marker date="1530817794956" expanded="true" signature="158:170" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetValuesResponse.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExampleApp.Contracts/GetValuesResponse.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1530817687264" expanded="true" signature="30:141" ph="{...}" />
+                <marker date="1530817687264" expanded="true" signature="67:139" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetValueRequestHandler.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ExampleApp.Domain/GetValueRequestHandler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <marker date="1530818217202" expanded="true" signature="6:96" ph="..." />
+                <marker date="1530818217202" expanded="true" signature="125:1657" ph="{...}" />
+                <marker date="1530818217202" expanded="true" signature="220:547" ph="{...}" />
+                <marker date="1530818217202" expanded="true" signature="333:541" ph="{...}" />
+                <marker date="1530818217202" expanded="true" signature="414:529" ph="{...}" />
+                <marker date="1530818217202" expanded="true" signature="644:960" ph="{...}" />
+                <marker date="1530818217202" expanded="true" signature="759:954" ph="{...}" />
+                <marker date="1530818217202" expanded="true" signature="841:942" ph="{...}" />
+                <marker date="1530818217202" expanded="true" signature="1063:1344" ph="{...}" />
+                <marker date="1530818217202" expanded="true" signature="1182:1338" ph="{...}" />
+                <marker date="1530818217202" expanded="true" signature="1266:1326" ph="{...}" />
+                <marker date="1530818217202" expanded="true" signature="1447:1655" ph="{...}" />
+                <marker date="1530818217202" expanded="true" signature="1566:1649" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetValueResponse.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExampleApp.Contracts/GetValueResponse.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <folding>
+                <marker date="1530818222504" expanded="true" signature="30:127" ph="{...}" />
+                <marker date="1530818222504" expanded="true" signature="66:125" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExampleApp.Api/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <marker date="1530816307069" expanded="false" signature="6:255" ph="..." />
+                <marker date="1530816307069" expanded="true" signature="281:608" ph="{...}" />
+                <marker date="1530816307069" expanded="true" signature="308:606" ph="{...}" />
+                <marker date="1530816307069" expanded="true" signature="361:435" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExampleApp.Api/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
+              <folding>
+                <marker date="1530817255456" expanded="false" signature="6:498" ph="..." />
+                <marker date="1530817255456" expanded="true" signature="524:1672" ph="{...}" />
+                <marker date="1530817255456" expanded="true" signature="551:1670" ph="{...}" />
+                <marker date="1530817255456" expanded="true" signature="610:673" ph="{...}" />
+                <marker date="1530817255456" expanded="true" signature="896:1200" ph="{...}" />
+                <marker date="1530817255456" expanded="true" signature="1388:1664" ph="{...}" />
+                <marker date="1530817255456" expanded="true" signature="1435:1512" ph="{...}" />
+                <marker date="1530817255456" expanded="true" signature="1529:1588" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContractsModule.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExampleApp.Contracts/ContractsModule.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+              <folding>
+                <marker date="1530817139825" expanded="true" signature="30:88" ph="{...}" />
+                <marker date="1530817139825" expanded="true" signature="65:86" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DomainModule.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ExampleApp.Domain/DomainModule.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              <folding>
+                <marker date="1530817085686" expanded="true" signature="42:88" ph="{...}" />
+                <marker date="1530817085686" expanded="true" signature="74:86" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ExampleApp.Domain/GetValueRequestHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ExampleApp.Api/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ExampleApp.Domain/DomainModule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ExampleApp.Contracts/GetValueResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ExampleApp.Contracts/GetValuesResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ExampleApp.Contracts/GetValuesRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ExampleApp.Api/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ExampleApp.Contracts/ContractsModule.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ExampleApp.Contracts/Class1.cs" />
+        <option value="$PROJECT_DIR$/ExampleApp.Domain/DomainModule.cs" />
+        <option value="$PROJECT_DIR$/ExampleApp.Contracts/ContractsModule.cs" />
+        <option value="$PROJECT_DIR$/ExampleApp.Api/Startup.cs" />
+        <option value="$PROJECT_DIR$/ExampleApp.Contracts/GetUserResponse.cs" />
+        <option value="$PROJECT_DIR$/ExampleApp.Contracts/GetValuesRequest.cs" />
+        <option value="$PROJECT_DIR$/ExampleApp.Contracts/GetValueResponse.cs" />
+        <option value="$PROJECT_DIR$/ExampleApp.Domain/GetValueRequestHandler.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ExampleApp (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ExampleApp (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ExampleApp.Api" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ExampleApp (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ExampleApp.Contracts" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="ExampleApp (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="ExampleApp.Domain" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d180e37-b18a-4b4e-8585-ecb693f23a09" name="Default" comment="" />
+      <created>1530816700596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530816700596</updated>
+      <workItem from="1530816702247" duration="1516000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1516000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="NuGet" visible="true" weight="0.3089655" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ExampleApp.Api/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1530816307069" expanded="false" signature="6:255" ph="..." />
+            <marker date="1530816307069" expanded="true" signature="281:608" ph="{...}" />
+            <marker date="1530816307069" expanded="true" signature="308:606" ph="{...}" />
+            <marker date="1530816307069" expanded="true" signature="361:435" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExampleApp.Domain/DomainModule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding>
+            <marker date="1530817085686" expanded="true" signature="42:88" ph="{...}" />
+            <marker date="1530817085686" expanded="true" signature="74:86" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExampleApp.Contracts/ContractsModule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <marker date="1530817139825" expanded="true" signature="30:88" ph="{...}" />
+            <marker date="1530817139825" expanded="true" signature="65:86" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExampleApp.Api/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
+          <folding>
+            <marker date="1530817255456" expanded="false" signature="6:498" ph="..." />
+            <marker date="1530817255456" expanded="true" signature="524:1672" ph="{...}" />
+            <marker date="1530817255456" expanded="true" signature="551:1670" ph="{...}" />
+            <marker date="1530817255456" expanded="true" signature="610:673" ph="{...}" />
+            <marker date="1530817255456" expanded="true" signature="896:1200" ph="{...}" />
+            <marker date="1530817255456" expanded="true" signature="1388:1664" ph="{...}" />
+            <marker date="1530817255456" expanded="true" signature="1435:1512" ph="{...}" />
+            <marker date="1530817255456" expanded="true" signature="1529:1588" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExampleApp.Contracts/GetValuesRequest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1530817794956" expanded="true" signature="6:42" ph="..." />
+            <marker date="1530817794956" expanded="true" signature="74:172" ph="{...}" />
+            <marker date="1530817794956" expanded="true" signature="158:170" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExampleApp.Contracts/GetValueResponse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <marker date="1530818222504" expanded="true" signature="30:127" ph="{...}" />
+            <marker date="1530818222504" expanded="true" signature="66:125" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExampleApp.Contracts/GetValuesResponse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1530817687264" expanded="true" signature="30:141" ph="{...}" />
+            <marker date="1530817687264" expanded="true" signature="67:139" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExampleApp.Domain/GetValueRequestHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <marker date="1530818217202" expanded="true" signature="6:96" ph="..." />
+            <marker date="1530818217202" expanded="true" signature="125:1657" ph="{...}" />
+            <marker date="1530818217202" expanded="true" signature="220:547" ph="{...}" />
+            <marker date="1530818217202" expanded="true" signature="333:541" ph="{...}" />
+            <marker date="1530818217202" expanded="true" signature="414:529" ph="{...}" />
+            <marker date="1530818217202" expanded="true" signature="644:960" ph="{...}" />
+            <marker date="1530818217202" expanded="true" signature="759:954" ph="{...}" />
+            <marker date="1530818217202" expanded="true" signature="841:942" ph="{...}" />
+            <marker date="1530818217202" expanded="true" signature="1063:1344" ph="{...}" />
+            <marker date="1530818217202" expanded="true" signature="1182:1338" ph="{...}" />
+            <marker date="1530818217202" expanded="true" signature="1266:1326" ph="{...}" />
+            <marker date="1530818217202" expanded="true" signature="1447:1655" ph="{...}" />
+            <marker date="1530818217202" expanded="true" signature="1566:1649" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

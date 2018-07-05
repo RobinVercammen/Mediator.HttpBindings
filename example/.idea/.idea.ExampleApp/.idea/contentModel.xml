@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_ExampleApp.1524701987.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="ExampleApp.Api" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ExampleApp.Api.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="ExampleApp.Api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="wwwroot" t="Include" />
+      </e>
+      <e p="ExampleApp.Contracts" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ContractsModule.cs" t="Include" />
+        <e p="ExampleApp.Contracts.csproj" t="IncludeRecursive" />
+        <e p="GetValueRequest.cs" t="Include" />
+        <e p="GetValueResponse.cs" t="Include" />
+        <e p="GetValuesRequest.cs" t="Include" />
+        <e p="GetValuesResponse.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="ExampleApp.Contracts.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RemoveValueRequest.cs" t="Include" />
+        <e p="RemoveValueResponse.cs" t="Include" />
+        <e p="UpdateValueRequest.cs" t="Include" />
+        <e p="UpdateValueResponse.cs" t="Include" />
+        <e p="ValueDetail.cs" t="Include" />
+        <e p="ValueOverview.cs" t="Include" />
+      </e>
+      <e p="ExampleApp.Domain" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DomainModule.cs" t="Include" />
+        <e p="ExampleApp.Domain.csproj" t="IncludeRecursive" />
+        <e p="GetValueRequestHandler.cs" t="Include" />
+        <e p="GetValuesRequestHandler.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="ExampleApp.Domain.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RemoveValueRequestHandler.cs" t="Include" />
+        <e p="UpdateValueRequestHandler.cs" t="Include" />
+      </e>
+      <e p="ExampleApp.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
