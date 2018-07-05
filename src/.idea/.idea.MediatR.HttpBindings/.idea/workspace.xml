@@ -30,11 +30,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
+            <state relative-caret-position="486">
+              <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
+              <folding>
+                <marker date="1530206979697" expanded="false" signature="6:144" ph="..." />
+                <marker date="1530206979697" expanded="true" signature="191:2785" ph="{...}" />
+                <marker date="1530206979697" expanded="true" signature="225:2783" ph="{...}" />
+                <marker date="1530206979697" expanded="true" signature="284:1935" ph="{...}" />
+                <marker date="1530206979697" expanded="true" signature="1966:2777" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,11 +53,6 @@
               <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Contract.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/Contract.cs">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="ContractWriter.cs" pinned="false" current-in-tab="false">
@@ -108,7 +110,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddUserRequest.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddUserRequest.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.Api/AddUserRequest.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -163,6 +165,15 @@
                 <marker date="1530206979702" expanded="true" signature="5729:6123" ph="{...}" />
                 <marker date="1530206979702" expanded="true" signature="5895:6023" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TypescriptRequest.st" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/TypescriptRequest.st">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -288,6 +299,11 @@
               <item name="MediatR.HttpBindings (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="MediatR.HttpBindings.Api" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="MediatR.HttpBindings (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="MediatR.HttpBindings.CodeGeneration" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -373,12 +389,12 @@
       <workItem from="1529737409912" duration="8165000" />
       <workItem from="1529842171270" duration="3710000" />
       <workItem from="1530813830122" duration="1087000" />
-      <workItem from="1530815948449" duration="1677000" />
+      <workItem from="1530815948449" duration="2341000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26493000" />
+    <option name="totallyTimeSpent" value="27157000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -399,8 +415,8 @@
       <window_info anchor="bottom" id="Unit Tests" order="7" weight="0.32977778" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3288889" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.22896552" />
-      <window_info anchor="bottom" id="NuGet" order="7" visible="true" weight="0.32827586" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.22896552" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32827586" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23990306" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3288889" />
@@ -649,20 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/TypescriptRequest.st">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/ContractWriter.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -773,6 +775,27 @@
             <marker date="1530206979692" expanded="true" signature="260:311" ph="{...}" />
             <marker date="1530206979692" expanded="true" signature="402:649" ph="{...}" />
             <marker date="1530206979692" expanded="true" signature="519:643" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/TypescriptRequest.st">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MediatR.HttpBindings.CodeGeneration/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="54" column="73" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
+          <folding>
+            <marker date="1530206979697" expanded="false" signature="6:144" ph="..." />
+            <marker date="1530206979697" expanded="true" signature="191:2785" ph="{...}" />
+            <marker date="1530206979697" expanded="true" signature="225:2783" ph="{...}" />
+            <marker date="1530206979697" expanded="true" signature="284:1935" ph="{...}" />
+            <marker date="1530206979697" expanded="true" signature="1966:2777" ph="{...}" />
           </folding>
         </state>
       </provider>

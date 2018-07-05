@@ -40,22 +40,14 @@
       <file leaf-file-name="GetValueRequestHandler.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ExampleApp.Domain/GetValueRequestHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="255">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
               <folding>
-                <marker date="1530818217202" expanded="true" signature="6:96" ph="..." />
-                <marker date="1530818217202" expanded="true" signature="125:1657" ph="{...}" />
-                <marker date="1530818217202" expanded="true" signature="220:547" ph="{...}" />
-                <marker date="1530818217202" expanded="true" signature="333:541" ph="{...}" />
-                <marker date="1530818217202" expanded="true" signature="414:529" ph="{...}" />
-                <marker date="1530818217202" expanded="true" signature="644:960" ph="{...}" />
-                <marker date="1530818217202" expanded="true" signature="759:954" ph="{...}" />
-                <marker date="1530818217202" expanded="true" signature="841:942" ph="{...}" />
-                <marker date="1530818217202" expanded="true" signature="1063:1344" ph="{...}" />
-                <marker date="1530818217202" expanded="true" signature="1182:1338" ph="{...}" />
-                <marker date="1530818217202" expanded="true" signature="1266:1326" ph="{...}" />
-                <marker date="1530818217202" expanded="true" signature="1447:1655" ph="{...}" />
-                <marker date="1530818217202" expanded="true" signature="1566:1649" ph="{...}" />
+                <marker date="1530818270588" expanded="true" signature="6:96" ph="..." />
+                <marker date="1530818270588" expanded="true" signature="125:549" ph="{...}" />
+                <marker date="1530818270588" expanded="true" signature="220:547" ph="{...}" />
+                <marker date="1530818270588" expanded="true" signature="333:541" ph="{...}" />
+                <marker date="1530818270588" expanded="true" signature="414:529" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -239,12 +231,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530816700596</updated>
-      <workItem from="1530816702247" duration="1516000" />
+      <workItem from="1530816702247" duration="2399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1516000" />
+    <option name="totallyTimeSpent" value="2399000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,8 +258,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="NuGet" visible="true" weight="0.3089655" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" anchor="bottom" id="NuGet" visible="true" weight="0.3089655" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -370,22 +362,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ExampleApp.Domain/GetValueRequestHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
-            <marker date="1530818217202" expanded="true" signature="6:96" ph="..." />
-            <marker date="1530818217202" expanded="true" signature="125:1657" ph="{...}" />
-            <marker date="1530818217202" expanded="true" signature="220:547" ph="{...}" />
-            <marker date="1530818217202" expanded="true" signature="333:541" ph="{...}" />
-            <marker date="1530818217202" expanded="true" signature="414:529" ph="{...}" />
-            <marker date="1530818217202" expanded="true" signature="644:960" ph="{...}" />
-            <marker date="1530818217202" expanded="true" signature="759:954" ph="{...}" />
-            <marker date="1530818217202" expanded="true" signature="841:942" ph="{...}" />
-            <marker date="1530818217202" expanded="true" signature="1063:1344" ph="{...}" />
-            <marker date="1530818217202" expanded="true" signature="1182:1338" ph="{...}" />
-            <marker date="1530818217202" expanded="true" signature="1266:1326" ph="{...}" />
-            <marker date="1530818217202" expanded="true" signature="1447:1655" ph="{...}" />
-            <marker date="1530818217202" expanded="true" signature="1566:1649" ph="{...}" />
+            <marker date="1530818270588" expanded="true" signature="6:96" ph="..." />
+            <marker date="1530818270588" expanded="true" signature="125:549" ph="{...}" />
+            <marker date="1530818270588" expanded="true" signature="220:547" ph="{...}" />
+            <marker date="1530818270588" expanded="true" signature="333:541" ph="{...}" />
+            <marker date="1530818270588" expanded="true" signature="414:529" ph="{...}" />
           </folding>
         </state>
       </provider>
