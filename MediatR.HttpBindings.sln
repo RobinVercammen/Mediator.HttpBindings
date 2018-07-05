@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.HttpBindings.Test", "MediatR.HttpBindings.Test\MediatR.HttpBindings.Test.csproj", "{AA6B06EB-761E-4CC2-8520-DAF99089CE73}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.HttpBindings.Api", "MediatR.HttpBindings.Api\MediatR.HttpBindings.Api.csproj", "{2A996985-C8B5-4B5B-8596-A66EC8880700}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.HttpBindings", "MediatR.HttpBindings\MediatR.HttpBindings.csproj", "{90FE8F2D-E9E9-46B2-9985-45EE1F086F6C}"
